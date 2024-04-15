@@ -1,0 +1,4 @@
+# IDE
+.idea
+/tracking/mlflow/.env
+/tracking/mlflow/var/nginx/.htpasswd
