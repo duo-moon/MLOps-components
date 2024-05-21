@@ -11,7 +11,7 @@ Create a `.env` file in the mlflow root directory (example file `./mlflow/.env.e
 
 **2. Create `htpasswd` file**
 
-Create a `htpasswd` file in the `./mlflow/var/nginx` for nginx server. This file will contain username and password in an encrypted format.
+Create a `htpasswd` file in the `./mlflow/var/nginx` directory for nginx server. This file will contain username and password in an encrypted format.
 ```bash
 htpasswd -c ./var/nginx/.htpasswd username
 ```
